@@ -1,0 +1,27 @@
+{
+  "name": "xutl/yii2-captcha",
+  "description": "The captcha extension for the Yii framework",
+  "keywords": [
+    "captcha",
+    "yii2"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "XuTl",
+      "email": "xutl@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "xutl\\collection\\": "src"
+    }
+  }
+}
